@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #ece9e6, #ffffff);
+    background: linear-gradient(135deg, #ffcc33 0%, #ff33cc 100%);
 }
 
 .container {
@@ -21,6 +21,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     margin: 0 20px;
+}
+
+.logo {
+    width: 100px; /* Thay đổi kích thước theo nhu cầu của bạn */
+    margin-bottom: 1rem;
 }
 
 h1 {
