@@ -1,57 +1,42 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #ffcc33 0%, #ff33cc 100%);
+    background-color: #f4f4f4;
 }
 
 .container {
-    text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
     background: #fff;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
-    margin: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    width: 100px; /* Thay đổi kích thước theo nhu cầu của bạn */
-    margin-bottom: 1rem;
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
+header h1 {
+    margin: 0;
 }
 
-h2 {
-    color: #555;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-p {
-    color: #666;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-
-a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
